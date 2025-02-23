@@ -1,0 +1,929 @@
+Internal Use
+A PROJECT PROPOSAL
+for
+ARRF ID: RFID-based Pet Tracker Featuring Health Analytics
+As partial fulfillment of the course requirements
+IE 103 – A76
+TECHNOPRENEURSHIP 101
+AY 2024 - 2025
+Submitted by:
+Abadiano, Aaron, B.- LEADER
+2022107090
+Capoquian, Reji, T.
+2022102779
+De Guzman, Rance Jacob, L.
+2020130176
+Macalalad, Marion Nikko, A.
+2020114748
+Sangilan, FP, O.
+2022101838
+Date of Submission
+March 2024
+Internal Use
+TABLE OF CONTENTS
+CHAPTER 1 – PROJECT PROPOSAL ..................................................................4
+1.1 Introduction ...............................................................................................4
+1.2 Executive Summary ....................................................................................5
+1.3 Name, Logo, and Brief Description of the Business / Project .............................6
+1.4 Objectives .................................................................................................6
+1.5 Minimum Viable Product (MVP)...................................................................7
+1.6 Definition of Terms.....................................................................................7
+CHAPTER 2 – MARKET STUDY ........................................................................9
+2.1 Introduction ...............................................................................................9
+2.2 Industry Background ................................................................................. 10
+2.3 Purpose of the Survey Questionnaire............................................................ 11
+2.4 Qualitative Analysis .................................................................................. 12
+2.5 Factors Affecting the Market ...................................................................... 12
+2.5.1 Supply and Demand Analysis ............................................................... 12
+2.5.2 Economic Trend ................................................................................. 13
+2.6 Marketing Program and Marketing Strategy .................................................. 14
+2.7 SWOT Analysis........................................................................................ 14
+2.8 Overall Business Plan................................................................................ 16
+CHAPTER 3 – TECHNICAL STUDY.................................................................. 18
+3.1 Introduction ............................................................................................. 18
+3.2 Proof of Concept ...................................................................................... 18
+3.3 Process of Standard................................................................................... 18
+3.4 Product/Service Distribution....................................................................... 19
+3.5 Product Costing and Product Specification.................................................... 19
+3.6 Schematic Diagram................................................................................... 22
+3.7 Labor Diagram ......................................................................................... 22
+3.8 Waste Disposal ......................................................................................... 22
+CHAPTER 4 – MANAGEMENT AND ORGANIZATIONAL STUDY..................... 24
+4.1 Introduction ............................................................................................. 24
+Internal Use
+4.2 Organizational Structure (Management Team and Organization Chart -role........ 24
+and responsibilities)........................................................................................ 24
+4.3 Legal Form of Business (type of ownership) ................................................. 25
+4.4 Project Timetable (Gantt Chart)................................................................... 26
+CHAPTER 5 – FINANCIAL STUDY .................................................................. 28
+5.1 Introduction ............................................................................................. 28
+5.2 Project Funding Sources ............................................................................ 28
+5.3 Project Cost ............................................................................................. 31
+5.4 Financial Analysis/Financial Statement/Status/Financial Projections ................. 32
+5.5 ROI, PP, Break Even ................................................................................. 33
+REFERENCES ................................................................................................. 35
+Internal Use
+CHAPTER 1 – PROJECT PROPOSAL
+1.1 Introduction
+In recent years, the pet care industry has experienced substantial growth, with
+global pet ownership being more common, treating animals as their family members. In
+the Philippines alone, according to a 2024 survey by Kantas (2024), 94% of Filipino
+households own at least one household pet - mainly a dog or a cat. This rise of pet
+ownership shifts the perspective of the demand for better pet care solutions. The
+convergence of technologies such as the Internet of Things or IoT in veterinary care has
+opened more possibilities in pet healthcare management, especially on applications like
+preventive care and early detection of health issues (Cheng, et al. 2020). Traditional pet
+identification methods like collar tags, while useful, provide limited functionality in today's
+connected world where pet owners seek more detailed insights into their pets' health and
+activities. Utilizing these traditional methods of collar tags while providing a more
+sophisticated solution would provide pet owners less friction to what they already usually
+do and bridge the gap between basic identification and comprehensive health monitoring.
+Introducing - ARRF ID, ARRF ID is a smart pet collar system that integrates RFID
+technology with vital health monitoring capabilities to provide pet owners with
+comprehensive insights into their pets' well-being and location. The device combines
+multiple sensors and communication technologies in a collar-based form factor that's
+familiar and comfortable for pets to wear. The system's core functionality is built around
+several key components: a NEO 6M GPS module for real-time location tracking, an
+embedded NFC tag for quick access to pet information, a pulse oximeter sensor for
+monitoring vital signs, and a NodeMCU microcontroller that serves as the system's brain.
+All components are powered by a rechargeable lithium battery, ensuring consistent
+operation throughout the day. The device's primary features include real-time GPS tracking
+allowing owners to monitor their pet's location through a mobile application, vital sign
+monitoring through the pulse oximeter sensor which tracks heart rate and blood oxygen
+levels, and emergency contact access via NFC technology, enabling quick retrieval of
+critical pet information by scanning the collar with a smartphone. Additionally, ARRF ID
+incorporates a digital pet profile system that stores medical history, vaccination records,
+Internal Use
+and owner contact information, along with health analytics capabilities that can detect
+irregular patterns in vital signs and activity levels. The device establishes a connection
+between pet health monitoring and owner accessibility, making it easier for pet owners to
+maintain their pets' well-being while providing veterinarians with valuable health data for
+better medical care decisions.
+1.2 Executive Summary
+The global pet care industry is undergoing a transformative shift, driven by the
+increasing integration of pets into family structures and the growing demand for advanced
+health and safety solutions. As pet ownership rises, particularly in regions like the
+Philippines where 94% of households own pets, the need for innovative tools that go
+beyond traditional pet care methods has become evident. While conventional identification
+systems like collar tags serve basic purposes, they fall short in addressing the modern pet
+owner’s desire for proactive health management and real-time monitoring. This gap
+presents a significant opportunity for technological intervention.
+ARRF ID emerges as a groundbreaking solution, designed to seamlessly blend
+familiarity with innovation. By reimagining the traditional pet collar, ARRF ID introduces
+a multifunctional device that not only identifies pets but also serves as a comprehensive
+health and safety monitoring system. Leveraging cutting-edge technologies such as GPS,
+NFC, and biometric sensors, the device empowers pet owners with actionable insights into
+their pets’ well-being and location. Its integration of real-time tracking, vital sign
+monitoring, and emergency information access creates a holistic ecosystem that bridges
+the gap between pet care and advanced technology.
+What sets ARRF ID apart is its ability to address both immediate and long-term
+needs of pet owners. The system’s health analytics capabilities enable early detection of
+potential health issues, fostering preventive care and reducing the likelihood of
+emergencies. Simultaneously, its user-friendly design ensures minimal disruption to
+existing pet care routines, making adoption intuitive and accessible. By providing
+veterinarians with detailed health data, ARRF ID also enhances the quality of medical care,
+creating a collaborative environment between pet owners and healthcare providers.
+Internal Use
+In a world where pets are increasingly viewed as family members, ARRF ID
+represents a critical step forward in pet care innovation. It not only meets the evolving
+demands of modern pet ownership but also sets a new standard for how technology can
+enhance the bond between pets and their owners, ensuring healthier, safer, and more
+connected lives for animals and their families.
+1.3 Name, Logo, and Brief Description of the Business / Project
+Figure 1.1. ARRF ID Logo.
+The name “ARRF” is derived from the first letters of the proponents: Aaron, Reji,
+Rance, and FP. While the company name is called that way, the project becomes associated
+with it as it is tagged as “ARRF ID” which corresponds to the use of RFID as a way to
+drive the project. Shown in figure 1.1 is the logo of the business which is a dog that
+completes that letters of the business name, ARRF ID. The use of a dog as a figure shows
+that the business serves pet owners, specifically owners of pet owners.
+1.4 Objectives
+The primary objective of the ARRF ID project is to develop a smart pet collar
+system that integrates RFID technology and health monitoring features, providing pet
+owners with real-time location tracking and vital sign monitoring to enhance pet care and
+well-being. Specifically, the project aims to design and implement a collar-based system
+equipped with a GPS module for real-time pet location tracking while integrating an NFC
+tag to store and provide quick access to essential pet information, such as medical records
+and owner details. To ensure comprehensive health monitoring, the system will incorporate
+Internal Use
+a pulse oximeter sensor to track heart rate and blood oxygen levels, with a NodeMCU
+microcontroller managing data processing and seamless communication between
+components. A rechargeable lithium battery will be utilized for reliable power
+management, ensuring consistent operation. Additionally, a mobile application will be
+developed to allow pet owners to monitor real-time location, vital signs, and medical
+history, while data analytics features will be implemented to detect irregularities in a pet’s
+health and activity patterns. The system will also enhance emergency response capabilities
+by enabling veterinarians or rescuers to access critical pet information through NFC
+scanning. To ensure user-friendliness, the collar will be designed to be lightweight, durable,
+and comfortable for pets. Finally, the project will undergo real-world testing to evaluate its
+accuracy, reliability, and overall effectiveness in providing pet owners and veterinarians
+with valuable insights for improved pet healthcare management.
+1.5 Minimum Viable Product (MVP)
+Figure 1.2. ARRF ID Mockups
+The project mockup images in figure 1.2. Showcase the ARRF ID, which is an
+innovative smart collar for dogs designed to address pet care needs in a connected world.
+The collar integrates advanced technologies like the NEO 6M GPS module for real-time
+tracking, an NFC tag for instant access to pet information, a NodeMCU microcontroller
+for system management, and a rechargeable lithium battery for consistent power supply.
+This compact design promotes comfort and practicality while offering essential features
+such as location monitoring, digital pet profiles, and emergency contact information. ARRF
+ID represents a combination of IoT and pet healthcare that essentially brings convenience,
+security, and peace-of-mind to modern pet owners today.
+1.6 Definition of Terms
+Internal Use
+Advantage / Disadvantage
+ARRF ID's primary strength positions it as a revolutionary solution in pet care technology.
+The system excels in providing comprehensive health monitoring through its pulse
+oximeter sensor, enabling real-time tracking of vital signs including heart rate and blood
+oxygen levels, which facilitates early detection of health irregularities and provides
+veterinarians with valuable data for informed medical decisions. The integration of the
+NEO 6M GPS module ensures enhanced pet safety through real-time location tracking,
+while NFC technology enables quick access to emergency contact information, all
+seamlessly accessible through a user-friendly mobile application. The system's digital
+health record management capabilities centralize medical histories and vaccination
+records, streamlining information sharing between pet owners and veterinary professionals
+while reducing the burden of physical paperwork. The user-friendly design, incorporating
+advanced technology into a familiar collar-based form factor, requires minimal adjustment
+from pets while offering sophisticated functionality through smartphone integration and
+simple NFC scanning. This strong market alignment with current trends in the Philippines'
+pet care industry, particularly among tech-savvy urban pet owners, positions ARRF ID as
+a timely solution that bridges the gap between traditional pet care and modern veterinary
+practices.
+However, ARRF ID faces several notable challenges and limitations that warrant
+consideration. Cost considerations present a significant hurdle, as the higher initial
+investment compared to traditional pet collars, combined with ongoing maintenance,
+battery replacement, and potential repair costs, may limit accessibility for lower-income
+pet owners. Technical limitations, including dependence on consistent internet
+connectivity, battery life constraints, and potential GPS accuracy variations in certain
+environments, could impact the system's reliability and effectiveness. The learning curve
+associated with the technology may present adoption challenges for less tech-savvy pet
+owners, while the requirement for regular system maintenance and smartphone
+compatibility could create additional barriers to entry. Physical constraints pose challenges
+in balancing size and weight limitations for smaller pets while maintaining functionality,
+Internal Use
+alongside concerns about durability in various weather conditions and potential comfort
+issues. Furthermore, the system must address significant data and privacy concerns,
+including the secure storage and protection of sensitive information, potential security
+vulnerabilities in wireless communications, and the privacy implications of location
+tracking, all of which require robust security measures and transparent policies to maintain
+user trust.
+Target Market
+ARRF ID primarily targets middle to upper-middle-class pet owners aged 25-45 in urban
+areas of the Philippines, particularly in Metro Manila and other major cities where pet
+ownership and technological adoption are highest. This demographic aligns with the
+country's significant pet ownership rate, where 94% of Filipino households own at least
+one pet (Kantar, 2024). According to the Philippine Animal Welfare Society (2023), the
+local pet care industry has grown by 12% annually, with Filipino pet owners spending an
+average of PHP 5,000 to PHP 10,000 monthly on their pets' needs, including healthcare
+and accessories.
+The secondary market includes the growing number of veterinary clinics in urban areas,
+particularly in regions like Metro Manila, Cebu, and Davao, where pet healthcare services
+are more advanced and accessible. This market segment is particularly promising as the
+Philippines has seen a 25% increase in veterinary clinics over the past five years (Philippine
+Veterinary Medical Association, 2022). On the other hand, GlobalPets (2022) reports a
+significant surge in online pet product sales, with figures from Euromonitor showing that
+total online pet category sales increased from $4 million in 2017 to $9.9 million in 2021,
+representing more than a 25% annual growth rate.
+CHAPTER 2 – MARKET STUDY
+2.1 Introduction
+The market study for ARRF ID provides a comprehensive analysis of the current
+landscape for pet identification and tracking solutions in the Philippines. This chapter aims
+to validate the business opportunity for ARRF ID by examining market trends, consumer
+Internal Use
+preferences, and industry dynamics. Through a combination of primary survey data and
+secondary research, this study identifies gaps in existing solutions and outlines strategies
+to position ARRF ID as a leader in advanced pet care technology. The scope of this study
+focuses on urban and suburban markets, particularly in Metro Manila, Cavite, Cebu, and
+Davao, where pet ownership rates and technological adoption are highest. The findings
+from this study will guide marketing strategies, product refinement, and distribution plans
+to ensure ARRF ID meets the evolving needs of Filipino pet owners.
+2.2 Industry Background
+The Philippine pet care industry has experienced significant growth in recent years,
+with the total market value reaching ₱25.7 billion in 2023. This growth is driven by rising
+pet ownership rates and increasing demand for advanced pet care solutions. According to
+Kantar (2024), 94% of Filipino households own at least one pet, primarily dogs and cats.
+This surge in pet ownership has created opportunities for innovative technologies that
+address pet safety, health monitoring, and convenience. Current trends in the industry
+include the growing adoption of IoT-enabled devices like GPS trackers and health
+monitors, which have seen a 25% annual growth rate post-pandemic. This growth is fueled
+by high smartphone penetration (87%) and improved internet connectivity across the
+country.
+Pet owners are increasingly prioritizing preventive care, with 68% willing to pay
+more for devices that monitor vital signs, according to the Philippine Animal Welfare
+Society (PAWS, 2023). While traditional methods like collar tags (40% market share) and
+microchips (15%) remain common, there is a clear shift toward multifunctional devices
+like ARRF ID that offer real-time tracking and health monitoring. The demand for such
+devices is further driven by safety concerns, as reported pet theft and loss cases have
+increased by 22% in urban areas from 2022 to 2024. Additionally, 73% of pet owners are
+seeking devices that track health metrics like heart rate and oxygen levels, while 65%
+prioritize eco-friendly, rechargeable products over disposable alternatives.
+The primary target demographic for ARRF ID includes urban middle-to-upperclass pet owners aged X–Y in Metro Manila, Cebu, and Davao. These individuals are techsavvy and willing to invest in advanced pet care solutions. The secondary market includes
+Internal Use
+veterinary clinics, which have seen a 25% growth since 2019, and pet service providers
+seeking advanced tools for client engagement.
+2.3 Purpose of the Survey Questionnaire
+The survey aims to gather insights on Filipino pet owners’ needs, preferences, and
+pain points regarding pet identification and health monitoring. The primary objectives of
+the survey are to quantify pet loss incidents, assess satisfaction with existing products,
+evaluate feature prioritization, determine price sensitivity, and measure the importance of
+environmental impact in purchasing decisions. By quantifying pet loss incidents, the survey
+will determine the frequency of lost pets and the current solutions used by pet owners.
+Assessing satisfaction with existing products will help identify gaps in traditional collars,
+microchips, and basic GPS trackers. Evaluating feature prioritization will gauge interest in
+ARRF ID’s integrated features, such as NFC medical profiles and pulse oximetry.
+The survey will also explore price sensitivity to determine acceptable price ranges
+and willingness to pay for advanced features. Additionally, it will measure the importance
+of sustainability, such as rechargeability, in purchasing decisions. These insights will
+directly inform product development, ensuring ARRF ID’s design aligns with consumer
+needs. For example, survey results may lead to optimizations in battery life or the addition
+of customizable alerts. The data on price perception will help establish a competitive
+pricing strategy, with a target range between ₱X and ₱Y. Marketing messaging will also be
+tailored to highlight the features most valued by respondents, such as real-time health
+analytics or emergency NFC access.
+The survey methodology employs a stratified sampling approach, with 50 respondents split
+between urban (70%) and suburban (30%) pet owners. Data collection will be conducted
+through online forms (40) and face-to-face interviews (10). By addressing these insights,
+ARRF ID will bridge the gap between traditional pet care and modern technological
+solutions, ensuring market relevance and consumer appeal.
+Internal Use
+2.4 Qualitative Analysis
+2.5 Factors Affecting the Market
+The pet identification and tracking market in the Philippines is influenced by
+several key factors, including urbanization, technological advancement, and changing
+consumer attitudes. Rising urbanization rates, currently at 47% of the population, have led
+to increased pet ownership in metropolitan areas, where pets require more sophisticated
+identification and tracking solutions. The growing middle class, with higher disposable
+incomes, has demonstrated a greater willingness to invest in pet care technology,
+particularly in urban centers like Metro Manila, Cebu, and Davao.
+Technological advancements, such as the widespread adoption of smartphones and
+improved internet connectivity, have created a favorable environment for connected pet
+devices. With a mobile internet penetration rate of 87%, Filipino pet owners are
+increasingly open to using mobile applications to monitor their pets’ health and location.
+Additionally, changing consumer attitudes toward pet care, with pets increasingly viewed
+as family members, have led to higher spending on pet safety and welfare products.
+Regulatory factors also play a significant role in shaping the market. Recent
+legislation promoting responsible pet ownership, such as mandatory microchipping in
+some municipalities, has created additional demand for reliable identification solutions.
+The increasing awareness of pet theft and loss incidents, which have risen by 22% in urban
+areas over the past two years, has further heightened the perceived value of advanced pet
+identification systems like ARRF ID.
+2.5.1 Supply and Demand Analysis
+The demand for pet identification solutions in the Philippines shows strong growth
+potential, driven by several key factors. The pet ownership rate has increased by 45% since
+2019, with an estimated 8.9 million households now owning at least one pet. This
+expanding customer base has created a surge in demand for pet identification products,
+with particular emphasis on technology-enabled solutions. Market research indicates that
+Internal Use
+78% of pet owners express interest in advanced identification systems, though only 35%
+currently use such solutions, suggesting significant untapped market potential.
+On the supply side, the market currently features a mix of traditional and modern
+solutions. Traditional identification methods, such as collar tags and basic microchips,
+account for approximately 55% of the market share. However, the supply of advanced
+technological solutions remains limited, with only a handful of companies offering
+integrated digital identification systems. This gap between supply and sophisticated
+demand creates a favorable market opportunity for innovative solutions like ARRF ID.
+Current market dynamics reveal a supply shortage in the advanced pet identification
+segment, particularly for solutions that combine multiple identification methods with
+modern technology. While demand continues to grow at 16.8% annually, the supply of
+advanced solutions is expanding at only 12.4%, creating a market gap that is expected to
+persist for the next 3-5 years. This imbalance has resulted in higher price points for
+advanced solutions, with consumers demonstrating willingness to pay premium prices for
+reliable, technology-enabled identification systems.
+The competitive landscape shows limited local manufacturing of advanced pet
+identification devices, with most current supplies being imported. This reliance on imports
+has created opportunities for domestic producers to enter the market with locally optimized
+solutions. Additionally, the supply chain disruptions experienced during the pandemic have
+highlighted the need for more resilient local supply networks, potentially benefiting
+domestic manufacturers who can establish reliable production capabilities.
+Furthermore, the analysis of price elasticity indicates that demand for pet
+identification solutions remains relatively inelastic in the middle to upper-income
+segments, with consumers prioritizing quality and reliability over price. This characteristic
+suggests that there is room in the market for premium solutions that offer enhanced features
+and better reliability, particularly in urban areas where pet owners have higher disposable
+incomes and greater technology adoption rates.
+2.5.2 Economic Trend
+Internal Use
+2.6 Marketing Program and Marketing Strategy
+The marketing strategy for ARRF ID focuses on positioning the product as a
+premium, multifunctional solution for modern pet owners. The target market includes
+middle-to-upper-class pet owners aged x–x in urban areas, as well as veterinary clinics and
+pet service providers. The marketing program will emphasize ARRF ID’s unique features,
+such as real-time GPS tracking, NFC-enabled medical profiles, and pulse oximetry for
+health monitoring.
+The promotional strategy will include a mix of digital and traditional marketing
+channels. Social media platforms like Facebook, Instagram, and TikTok will be used to
+reach tech-savvy pet owners, while partnerships with pet influencers and veterinarians will
+help build credibility and trust. A pre-launch campaign will generate buzz through teaser
+videos and countdowns, followed by a virtual launch event featuring live demonstrations
+and testimonials from early adopters. Post-launch efforts will focus on user-generated
+content, encouraging customers to share their experiences with ARRF ID on social media.
+Pricing will be positioned as premium yet competitive, with a target range of ₱X–
+₱X to reflect the product’s advanced features and high-quality design. Distribution will
+primarily occur through online platforms like Lazada and Shopee, as well as partnerships
+with pet supply stores and veterinary clinics. Customer support will be a key component
+of the marketing strategy, with a dedicated team available to assist with product setup,
+troubleshooting, and feedback collection.
+2.7 SWOT Analysis
+STRENGHT
+• Real-time Tracking: Pet owners
+may rest easy knowing their
+pet's whereabouts thanks to the
+RFID-based pet tracker's
+continuous location monitoring.
+• Health Analytics: By including
+health data collecting (such
+temperature, heart rate, and
+WEAKNESSES
+• Restricted Range: Compared to
+GPS, RFID has a comparatively
+small range, which might make it
+difficult to track pets over great
+distances, particularly in
+expansive outdoor spaces.
+• Battery Life: Constant location
+tracking and health monitoring
+Internal Use
+activity levels), one can gain
+important knowledge about the
+general health of a pet.
+• Enhanced Security: With
+location updates and geofencing
+capabilities that notify owners if
+a pet wanders too far, RFID
+technology helps prevent pet
+loss or theft.
+• User-friendly Interface: Pet
+owners may keep an eye on their
+pet's whereabouts and health at
+any time, from any location, with
+an intuitive app or interface.
+• Data analytics: Offers
+information on long-term health
+trends that may aid in the early
+detection of possible medical
+problems.
+can rapidly deplete the device's
+battery, requiring regular battery
+replacement or recharging.
+• Device Size and Comfort:
+Some pet owners may be
+discouraged from using the
+tracker because it may be too
+big or unpleasant for little pets.
+• Technical Problems: Technical
+problems like signal
+interference, broken sensors, or
+connectivity problems may
+affect how effective the gadget
+is.
+• Cost: Exorbitant development
+and maintenance expenses may
+make the product too expensive
+for consumers.
+THREATS
+• Competition: It may be more
+difficult for new companies to
+gain market share if well-known
+pet tech companies create
+comparable RFID-based
+products.
+• Privacy Issues: Pet owners may
+be reluctant to divulge health
+information for fear that it may
+be utilized for other commercial
+reasons without their
+permission.
+• Environmental Factors: Severe
+weather or outdoor settings may
+shorten the tracker's lifespan
+and decrease its dependability.
+• Market Saturation: It may be
+challenging to stand out or get
+OPPORTUNITIES
+• Growing Pet Industry: As more
+people own pets, there is a
+greater need for cutting-edge pet
+care products, such as healthtracking gadgets.
+• Integration with Veterinary
+Care: By collaborating with
+veterinarians, pet trackers may
+be able to communicate data
+with experts directly, facilitating
+preventative health care.
+• Extension into Wearables: In
+addition to dogs, the system
+might be modified to track the
+well-being and whereabouts of
+senior citizens or other
+susceptible populations.
+Internal Use
+substantial attention in the
+market due to the growing
+quantity of pet devices available.
+• Global Market Expansion: In
+countries where pet care is
+becoming more and more
+important, pet trackers with
+health analytics may be
+appealing.
+• Partnerships with Pet
+Insurance Companies: By
+sharing the tracker's data with
+insurance companies,
+premiums for pets that maintain
+healthy lifestyles may be
+lowered.
+2.8 Overall Business Plan
+The overall business plan for ARRF ID focuses on establishing the product as a
+leader in the advanced pet identification and tracking market. The initial phase will involve
+finalizing the product design based on survey feedback and conducting pilot tests to ensure
+reliability and user satisfaction. The marketing strategy will emphasize ARRF ID’s unique
+features and benefits, targeting urban pet owners and veterinary professionals through
+digital and traditional channels.
+Pricing will be set at a premium level to reflect the product’s advanced capabilities,
+with plans to introduce tiered pricing options in the future to cater to different market
+segments. Distribution will primarily occur through online platforms and partnerships with
+pet supply stores and veterinary clinics. Customer support will be a key focus, with a
+dedicated team available to assist with product setup, troubleshooting, and feedback
+collection.
+Long-term goals include expanding the product line to include additional features
+and accessories, such as activity trackers and customizable collar designs. The company
+will also explore opportunities for international expansion, particularly in other Southeast
+Asian markets with similar pet ownership trends. By continuously innovating and adapting
+to market needs, ARRF ID aims to become the go-to solution for modern pet owners
+seeking advanced identification and health monitoring solutions.
+Internal Use
+Internal Use
+CHAPTER 3 – TECHNICAL STUDY
+3.1 Introduction
+The technical study of ARRF ID focuses on the development and implementation
+of a smart pet collar system that integrates advanced technologies to provide real-time
+location tracking, health monitoring, and emergency information access. This chapter
+outlines the proof of concept, the process of standardization, product distribution, costing,
+and specifications, as well as the schematic and labor diagrams. Additionally, it addresses
+waste disposal practices to ensure environmental sustainability. The goal of this chapter is
+to provide a comprehensive technical framework for the design, production, and
+deployment of ARRF ID, ensuring it meets both functional and market requirements.
+3.2 Proof of Concept
+The proof of concept for ARRF ID was developed through iterative prototyping
+and testing. The initial prototype integrated the NEO 6M GPS module for real-time location
+tracking, an NFC tag for quick access to pet information, and a pulse oximeter sensor for
+monitoring vital signs. The NodeMCU microcontroller served as the central processing
+unit, managing data collection, processing, and communication between components.
+Testing was conducted in three phases:
+1. Functional testing which ensures all components (GPS, NFC, pulse oximeter, and
+microcontroller) works seamlessly together.
+2. Durability testing that simulatesreal-world conditions, including exposure to water,
+dust, and varying temperatures, to ensure the collar’s resilience.
+3. User testing that involves pet owners and veterinarians to evaluate ease of use,
+comfort for pets, and the effectiveness of the mobile application.
+3.3 Process of Standard
+The production of ARRF ID follows a standardized process to ensure consistency,
+quality, and scalability. The process begins with the sourcing of high-quality components,
+such as the NEO 6M GPS module, NFC tags, pulse oximeter sensors, and NodeMCU
+microcontrollers, from certified suppliers. These components are then assembled into the
+collar unit, with strict adherence to design specifications. The assembly process includes
+Internal Use
+embedding the GPS module and NFC tag into the collar, integrating the pulse oximeter
+sensor for health monitoring, and connecting the NodeMCU microcontroller to manage
+data flow. Each unit undergoes rigorous quality assurance testing to ensure functionality,
+durability, and safety, including GPS accuracy tests, NFC readability checks, and sensor
+calibration. Once approved, the collars are packaged with user manuals, charging cables,
+and warranty information. Standard operating procedures (SOPs) are documented for each
+stage to maintain consistency and quality across production batches.
+3.4 Product/Service Distribution
+ARRF ID will be distributed through a multi-channel approach to maximize market
+reach. The product will be available on popular e-commerce platforms such as Lazada,
+Shopee, and the official ARRF ID website, allowing for nationwide accessibility and
+convenient purchasing. Additionally, collaborations with pet supply stores and veterinary
+clinics in urban areas like Metro Manila, Cebu, and Davao will provide physical access to
+the product. A subscription model will be offered for premium features, such as advanced
+health analytics and cloud storage for pet records, to cater to tech-savvy pet owners. To
+ensure customer satisfaction, a dedicated customer support team will assist with product
+setup, troubleshooting, and warranty claims, accessible via phone, email, and live chat.
+3.5 Product Costing and Product Specification
+Components Cost per unit
+NEO 6M GPS module ₱88
+NFC tag ₱10
+Pulse oximeter sensor ₱59
+NodeMCU microcontroller ₱66
+Rechargeable lithium battery ₱28
+Collar materials (silicone, straps,
+etc.)
+₱30
+TOTAL ₱281
+Table 3.5.1. Material Costs
+Internal Use
+The material costs for ARRF ID are broken down into the key components required
+for production. The NEO 6M GPS module, which enables real-time location tracking, costs
+₱88 per unit. The NFC tag, used for quick access to pet information, is priced at ₱10. The
+pulse oximeter sensor, essential for monitoring heart rate and blood oxygen levels, costs
+₱59. The NodeMCU microcontroller, which serves as the system’s brain, is priced at ₱66,
+while the rechargeable lithium battery, ensuring consistent operation, costs ₱28. Finally,
+the collar materials, including silicone and straps, cost ₱30 per unit. These material costs
+total ₱281 per unit, forming the foundation of the product’s production expenses.
+Role
+Number of
+Workers
+Daily Wage
+(₱)
+Total Costs
+(₱)
+Machine Operators 3 600 1,800
+Testers/QA/QC 1 500 500
+Software Developers 1 800 800
+Purchasing/Outsourcing
+& Logistics
+2 400 800
+Sales & Marketing 1 500 500
+HR & Administration 1 400 400
+Total Labor Cost (₱) 4,800
+Table 3.5.2. Labor Costs
+The labor costs for ARRF ID are calculated based on the number of workers, their
+daily wages, and the total costs for each role. Machine operators, responsible for
+assembling the collar, consist of 3 workers earning ₱600 per day, totaling ₱1,800. Testers
+and QA/QC personnel, who ensure product quality, include 1 worker earning ₱500 daily.
+Software developers, tasked with creating and maintaining the mobile application, consist
+of 1 worker earning ₱800 per day. The purchasing, outsourcing, and logistics team,
+responsible for sourcing materials and managing distribution, includes 2 workers earning
+₱400 daily, totaling ₱800. Sales and marketing personnel, who drive product promotion
+and sales, consist of 1 worker earning ₱500 daily. Finally, HR and administration,
+responsible for workforce management and administrative tasks, also include 1 worker
+Internal Use
+earning ₱400 daily. The total labor cost per day is ₱5,500, which is allocated across the
+number of units produced to determine the labor cost per unit.
+Feature Specification
+Dimensions
+2.5 cm (width) x 40 cm (length),
+adjustable for different pet sizes.
+Weight
+150 grams (lightweight for pet
+comfort).
+Battery Life
+24 hours on a single charge, with a
+2-hour charging time.
+GPS Accuracy 5-meter range.
+NFC Range 4 cm for quick scanning.
+Sensors
+Pulse oximeter for heart rate and
+blood oxygen monitoring.
+Compatibility
+iOS and Android mobile
+applications.
+Table 3.5.3. Product Specifications
+The product specifications for ARRF ID highlight its key features and technical
+details. The collar measures 2.5 cm in width and 40 cm in length, with an adjustable design
+to accommodate different pet sizes. It weighs 150 grams, ensuring comfort for pets while
+maintaining durability. The rechargeable lithium battery provides 24 hours of operation on
+a single charge, with a 2-hour charging time. The GPS module offers a 5-meter accuracy
+range for real-time location tracking, while the NFC tag has a 4 cm scanning range for
+quick access to pet information. The pulse oximeter sensor monitors heart rate and blood
+oxygen levels, providing critical health data. ARRF ID is compatible with both iOS and
+Android mobile applications, offering a user-friendly interface for pet owners to monitor
+their pets’ health and location.
+Internal Use
+Total Material Costs 281
+Total Labor Costs 4,800
+Other Expenses
+Overhead (utilities, rent, etc.) 1,200
+Packaging and Shipping 500
+Miscellaneous Costs 300
+Total Costs 7,081
+Table 3.5.4. Total Cost Breakdown
+3.6 Schematic Diagram
+3.7 Labor Diagram
+3.8 Waste Disposal
+ARRF ID is committed to environmental sustainability through responsible waste
+disposal practices. Defective or outdated components are collected and sent to certified ewaste recycling facilities to minimize electronic waste. Silicone and plastic materials from
+collars are recycled to reduce environmental impact, while used lithium batteries are
+disposed of through authorized recycling programs to prevent contamination. Additionally,
+eco-friendly packaging materials, such as biodegradable plastics and recycled cardboard,
+are used to further reduce waste. By adhering to these practices, ARRF ID ensures minimal
+environmental impact while delivering a high-quality product.
+Internal Use
+Internal Use
+CHAPTER 4 – MANAGEMENT AND ORGANIZATIONAL STUDY
+4.1 Introduction
+In this chapter we will be discussing about the management and organizational
+study of ARRF ID which outlines the structural framework and operational hierarchy that
+will guide our pet identification technology business. This chapter presents a
+comprehensive overview of how the organization will be structured, managed, and legally
+established to achieve its strategic objectives. The carefully designed organizational
+structure ensures clear lines of authority, effective communication channels, and efficient
+decision-making processes, while the chosen legal structure provides the necessary
+foundation for business operations and growth.
+Our organizational design reflects the dynamic nature of the pet technology
+industry and incorporates the flexibility needed to adapt to market changes while
+maintaining operational efficiency. The structure has been developed to support both
+immediate operational needs and future scaling capabilities, ensuring that ARRF ID can
+effectively serve its target market while maintaining innovative product development and
+customer service excellence.
+4.2 Organizational Structure (Management Team and Organization Chart -role
+and responsibilities)
+The company follows a hierarchical corporate structure with clearly defined reporting
+relationships. At the apex is the Chief Executive Officer (CEO), who provides overall
+Internal Use
+strategic direction and leadership. Reporting directly to the CEO are four C-level
+executives who manage distinct functional areas:
+1. The Chief Financial Officer (CFO) oversees all financial operations through two
+key teams:
+• Financial Analysts handling investment strategies, financial modeling, and
+reporting
+• Accounting Associates managing day-to-day accounting, payroll, and
+compliance
+2. The Chief Operating Officer (COO) manages core business operations through:
+• Operations Associates focusing on process execution and quality control
+• Supply Chain Associates handling inventory and supplier relationships
+3. The Chief Technology Officer (CTO) leads the technical division with:
+• Software Engineers developing and maintaining company systems
+• IT Support Associates providing technical infrastructure support
+4. The Chief Marketing Officer (CMO) directs brand and marketing efforts via:
+• Marketing Associates executing campaigns and digital presence
+• Brand Associates maintaining brand consistency and creative assets
+4.3 Legal Form of Business (type of ownership)
+ARRF ID will be established as a General Partnership, registered under Philippine law.
+This legal structure has been chosen based on several key considerations:
+1. Shared Resources and Expertise: The partnership structure allows the founders to
+combine their technical expertise, business acumen, and financial resources to
+Internal Use
+establish and grow the business effectively. Each partner brings unique skills and
+capabilities that complement the overall business objectives.
+2. Financial Structure: Under the partnership agreement, the initial capital investment
+will be shared equally among the partners, with profits and losses distributed
+according to predetermined proportions as specified in the partnership agreement.
+This arrangement ensures fair risk and reward sharing while maintaining clear
+financial accountability.
+3. Management Participation: All partners will have active roles in the management
+and operation of the business, leveraging their respective areas of expertise. The
+partnership agreement will clearly define each partner's responsibilities, authority
+levels, and decision-making powers to ensure smooth operations.
+The partnership structure provides the optimal balance of shared responsibility,
+operational flexibility, and resource optimization needed for ARRF ID's successful launch
+and growth in the pet identification technology market
+4.4 Project Timetable (Gantt Chart)
+Internal Use
+Internal Use
+CHAPTER 5 – FINANCIAL STUDY
+Notes:
+• Capital Assets
+- Rental Space (Building)
+- Manufacturing plant (Infrastructure)
+- Machinery (Production)
+- Computer equipment (Testing)
+• Working Capital
+- Current Assets – Current Liabilities (Rent, Utilities, Wage)
+• Pre-Op Expenses
+1. Government Legal Requirements (~50K one-time)
+- SEC (if Corporation or Partnership)
+- DTI (if Sole Proprietorship)
+- Business Permit/Mayor’s Permit
+- BIR (continuous as you operate)
+- Barangay Clearance
+- Community Tax Certificate
+- SSS, PhilHealth, PAG-IBIG (Benefits for regular employees, continuous as you
+operate)
+2. Recruitment and Hiring
+- Head count (Manpower)
+a.) Security Guard & Safety Officer
+b.) Machine operators
+c.) Testers/QC
+d.) Software developers
+e.) Purchasing/outsourcing & logistics
+f.) Sales & marketing
+g.) HR & administration
+5.1 Introduction
+5.2 Project Funding Sources
+Funding Stage Funding Sources Candidates Advantages
+Internal Use
+Pre-Seed & Seed
+Funding
+Angel Investors
+Networks like
+Philippine Angels
+and Manila Angel
+Investors Network.
+Early-stage capital,
+mentorship, and
+industry
+connections.
+Crowdfunding
+Platforms like The
+Spark Project,
+Gava, GoFundMe,
+Patreon, etc.
+Market validation,
+pre-sales revenue,
+and community
+engagement.
+Government
+Subsidies
+Programs like
+DOST-SETUP,
+DOST-PCIEERD,
+and DTI’s
+Innovation Grants.
+Non-dilutive
+funding, R&D
+support, and
+technical
+mentorship.
+Incubators and
+Accelerators
+Programs like
+IdeaSpace, QBO
+Innovation Hub, or
+LaunchGarage.
+Seed funding,
+mentorship, and
+investor networking
+opportunities.
+Series A/B/C/D
+Funding
+Venture Capital
+(VC)
+Firms like Foxmont
+Capital, Kickstart
+Ventures, and 500
+Startups
+Philippines.
+Growth funding,
+scaling expertise,
+and access to
+regional networks.
+Corporate
+Partnerships
+Pet brands
+(MetroPets,
+Petronas) or tech
+firms (Globe,
+PLDT).
+Co-development
+funds, distribution
+channels, and brand
+credibility.
+Bank Loans
+Institutions like BPI
+Family Bank, BDO,
+or LandBank SME
+loans.
+Debt financing for
+manufacturing/scali
+ng (requires
+collateral or
+revenue).
+Supplementary
+Funding
+Academic
+Partnerships
+Partnerships with
+universities (UP,
+Ateneo, Mapua) or
+DOST-funded R&D
+programs.
+Low-cost R&D
+support, access to
+laboratories, and
+academic
+collaboration.
+Table 5.1 Summary of Funding Sources Candidates with Funding Stage Alignments
+ARRF-ID can strategically utilize a combination of funding sources that are suited
+to its developmental phases. In the pre-seed stage, government grants from agencies like
+the Department of Science and Technology (DOST-SETUP or DOST-PCIEERD) and the
+Department of Trade and Industry (DTI) provide non-dilutive funding to support
+Internal Use
+prototyping, technical validation, and early R&D. This is complemented by angel investors
+from networks such as the Philippine Angels or Manila Angel Investors Network, who offer
+early capital, mentorship, and industry connections. Crowdfunding platforms like The
+Spark Project, Gava, GoFundMe, and Patreon can simultaneously validate market demand,
+generate pre-sales revenue, and build a community of early adopters. As the product
+progresses to the seed stage, incubators and accelerators like IdeaSpace, QBO Innovation
+Hub, or LaunchGarage become critical, offering seed funding, mentorship, workspace, and
+investor networking opportunities to refine the business model and prepare for scaling.
+Moving into Series A and B funding rounds, venture capital firms such as Foxmont
+Capital, Kickstart Ventures, or 500 Startups Philippines can inject growth capital to expand
+manufacturing capabilities, enhance technology, and penetrate regional markets. Corporate
+partnerships with pet industry leaders (e.g., MetroPets, Petronas) or tech companies (e.g.,
+Globe, PLDT) can further accelerate growth through co-development funds, distribution
+partnerships, or integrated tech solutions. By Series C or D, ARRF-ID may leverage bank
+loans from institutions like BPI Family Bank or BDO to finance large-scale production,
+supported by established revenue streams and collateral. Academic and research grants
+from universities (e.g., UP, Ateneo) or DOST programs can supplement R&D costs at any
+stage, fostering innovation through low-cost collaboration with academic experts.
+In the pre-seed phase, ARRF-ID would prioritize non-dilutive grants, angel
+investors, and crowdfunding to minimize equity loss while validating its concept. During
+the seed stage, accelerators and angel syndicates would bridge the gap to prepare for
+institutional investment. For Series A and B, growth-focused venture capital firms and
+strategic corporate partners would drive scaling, market expansion, and technological
+Internal Use
+refinement. By Series C or D, it shifts to securing larger loans or private equity to meet
+production demands and sustain growth. Finally, in the public market phase, ARRF-ID
+could pursue an initial public offering (IPO) on the Philippine Stock Exchange (PSE) to
+raise capital for global expansion while providing liquidity to early investors.
+This funding staged-based approach ensures ARRF-ID secures the right
+combination of capital, expertise, and partnerships at each milestone that balances equity
+preservation with strategic growth to establish itself as a leader in pet tech innovation.
+5.3 Project Cost
+ARRF-ID’s project cost will revolve around a series of equal payments done over
+a very long timeline known as ordinary perpetual annuity or perpetuity in short. In this
+case, the capitalized project cost will be estimated based on the periodical operating
+expenses and income taxes. This cost shall resemble the present worth of ARRF-ID over a
+prolonged planning horizon. The Philippines’ annual inflation rate as of January 2025 is
+2.9% based on data from the Philippine Statistics Authority (PSA). Hence, we assume the
+capitalized project cost calculation to be per annum or per year on a periodical basis. The
+formula for capitalized project cost is based on perpetuity and is showcased below:
+𝑃 =
+𝐴
+𝑖
+Internal Use
+P represents the present worth or the capitalized cost of ARRF-ID, A defines a series
+of periodic equal payments that is per annum or on a yearly basis, and i substitutes for the
+current annual inflation rate in the Philippines, which is 2.9%.
+5.4 Financial Analysis/Financial Statement/Status/Financial Projections
+This section is centered on the financial analysis and projections, together with the
+cash balance of ARRF-ID in the span of one (1) year and the financial statement of ARRFID projected for five (5) years.
+Net Sales
+Cost of Sales
+Gross Profit
+Selling and Operating Expenses
+General and Administrative Expenses
+Total Operating Expenses
+Operating Income
+Other Income
+Gain (Loss) on Financial Instruments
+(Loss) Gain on Foreign Currency
+Interest Expense
+Income Before Taxes
+Income Tax Expense
+Net Income
+2025 2025 2025
+Net Sales Php Php Php
+Cost of Sales
+Gross Profit
+Selling, general, and
+administrative
+expenses
+Operating income
+Internal Use
+Interest expense
+Loss of sale on
+equipment
+Income before taxes
+Income tax expense Php Php Php
+5.5 ROI, PP, Break Even
+Internal Use
+Internal Use
+REFERENCES
+Cheng, K. L., Chong, K. F., & Ng, K. W. (2020). Implementation of an IoT based Pet Care
+System. IEEE International Conference on Industry 4.0, Artificial Intelligence, and
+Communications Technology (IAICT), 1-6.
+https://www.researchgate.net/publication/343114482_Implementation_of_an_IoT_based_
+Pet_Care_System
+GlobalPets. (2022). Philippines: Steadily growing demand and coming market challenges
+in pet care industry. Global Pet Industry Magazine.
+https://globalpetindustry.com/article/philippines-steadily-growing-demand-and-comingmarket/
+Kantar. (2024). Philippines Rising Pet Ownership Survey. U.S. Department of Commerce:
+International Trade Administration. https://www.trade.gov/marketintelligence/philippines-upscale-pet-food-and-supplies
+Philippine Animal Welfare Society. (2023). Pet Care Industry Growth Report. PAWS
+Official Website. https://paws.org.ph/
+Philippine Veterinary Medical Association. (2022). Annual Veterinary Practice Report.
+PVMA Official Website. https://www.pvma.com.ph/"BASED ON THIS
